@@ -1,0 +1,13 @@
+ssh-agent
+
+added keys:
+ssh-add -l
+
+delete keys:
+ssh-add -D
+
+add key cmd:
+ssh-add -k mumbai_key.pem
+
+connect system:
+ssh ec2-user@192.168.1.50
