@@ -11,3 +11,11 @@ ssh-add -k mumbai_key.pem
 
 connect system:
 ssh ec2-user@192.168.1.50
+
+for thiis error
+ssh-add -l
+Could not open a connection to your authentication agent.
+
+eval $(ssh-agent)
+ssh-add
+
