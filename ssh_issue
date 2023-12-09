@@ -1,0 +1,2 @@
+ssh key changed:
+cd /home/maravinth/.ssh/known_hosts ----remove old keys
